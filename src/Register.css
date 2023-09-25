@@ -1,0 +1,71 @@
+.register-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-image: url("C:\KMITLy1_2\newOOP\GreenApple\Decorate\2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  max-width: 500px;
+  width: 100%;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #404040;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #66CC00;
+}
+
+.response-container {
+  margin-top: 1rem;
+}
+
+.response-text {
+  font-size: 1.2rem;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.Regis_context{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}

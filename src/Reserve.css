@@ -1,0 +1,61 @@
+.reserve_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("C:\KMITLy1_2\newOOP\GreenApple\Decorate\2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .reserve_form_container h1{
+    color: white;
+  }
+
+  .reserve-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 500px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #a3978c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightskyblue;
+  }
+  .login_context{
+    text-align: center;
+    color: white;
+    background-color: #665E56;
+    width: 300px;
+    height: 50px;
+    border-radius: 40%;
+  }

@@ -1,0 +1,62 @@
+body{
+    background-image: url("C:\KMITLy1_2\newOOP\GreenApple\Decorate\2.jpg");
+}
+
+.card{
+    position: relative;
+    background-color:#FEF8F3;
+    display: flex;
+    margin : auto;
+    width: 80%;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F7F0E9;
+    border-radius: 5%;
+}
+.your-profile{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 24px;
+}
+.user-info li{
+    padding: 25px;
+    margin-left: 40px;
+    list-style: none;
+}
+.user-info{
+    background-color: #ffff;
+    border: 1px solid;
+    border-radius: 5%;
+    margin-left: 10px;
+    margin-right : 20px;
+    width:60%;
+    height: 70%;
+}
+.card button {
+    position:absolute;
+    bottom: 30px;
+    right: 540px;
+    background-color: #a3978c;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+.card button:hover {
+    background-color: #665E56;
+  }
+.user-photo{
+    width: 50%;
+    margin-left: 10px;
+    height: 400px;
+}
+.user-photo img{
+    width: 400px;
+    height: auto;
+    margin-left: 60px;
+}

@@ -1,0 +1,92 @@
+.Page{
+    height: 1750px;
+    /* background-image: url("C:\KMITLy1_2\newOOP\GreenApple\Decorate\2.jpg");  */
+    /* เดี๋ยวมาเปลี่ยนพื้นหลัง */
+    padding-top: 50px;
+}
+.Detail_Container {
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 1px solid #a3978c;
+    background-color: white;
+    border-radius: 5%;
+    height: 1650px;
+    padding-top: 0px;
+}
+h1 {
+    text-align: center;
+}
+.Address {
+    text-align: center;
+    opacity: 80%;
+}
+
+
+.Top_table{
+    width: 100%;
+}
+.Top_table th{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;;
+    margin-left: 50px;
+}
+
+
+.Dor_photo table tr td img{
+    padding-top: 10px;
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+}
+.Dor_photo button{
+    background-color: #a3978c;
+}
+.Dor_photo table{
+    margin-bottom: 30px;
+    border: none;
+}
+.Dor_photo h2,p{
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.Detail_table h2{
+    margin-left: 30px;
+}
+.Detail_table table{
+    width: 900px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-left: 35px;
+}
+.Detail_table th,td{
+    text-align: center;
+}
+
+
+.Facility h2{
+    margin-left: 30px;
+}
+.Facility table{
+    width: 800px;
+    margin-left: 80px;
+  }
+.Facility img{
+    width: 20px;
+    height: 20px;
+  }
+.Facility tr{
+    text-align: left;
+  }
+.False{
+    color: #CB4335;
+}
+
+
+.Reserve{
+    margin-left: 50px;
+    background-color: #a3978c;
+}

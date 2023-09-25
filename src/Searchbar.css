@@ -1,0 +1,12 @@
+.Search_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+.Search_container input[type="text"] {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 200px;
+}
+  
